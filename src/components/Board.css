@@ -1,0 +1,16 @@
+.board {
+  display: grid;
+  grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+}
+
+.squares {
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.winning-board {
+  pointer-events: none;
+}

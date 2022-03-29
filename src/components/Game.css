@@ -1,0 +1,23 @@
+.heading {
+  padding: 1em;
+}
+
+.turn {
+  padding-top: 1em;
+}
+
+.turn-off {
+  display: none;
+}
+
+.text {
+  padding: 1em;
+}
+
+.restart-btn {
+  padding: 1em;
+}
+
+.winning-board {
+  pointer-events: none;
+}
